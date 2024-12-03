@@ -1,0 +1,45 @@
+body {
+    text-align: center;
+    background-image: url("https://images.unsplash.com/photo-1615525137689-198778541af6?q=80&w=1932&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+    background-size: cover;
+    color: rgb(206, 219, 27);
+}
+
+table, tr, td {
+    border: solid rgb(27, 143, 219) 2px;
+    margin: auto;
+    background-color: #0f0f0f;
+}
+
+tr, td {
+    text-align: center;
+}
+
+input, select {
+    width: 90%;
+    text-align: center;
+    background-color: #0f0f0f;
+    border-color: rgb(27, 143, 219);
+}
+
+option, select, input {
+    color: rgb(219, 27, 27);
+}
+
+button {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color: #0f0f0f;
+    border-color: rgb(27, 143, 219);
+    color: rgb(219, 27, 27);
+}
+
+p {
+    background-color: #0f0f0f;
+    padding: 10px;
+    max-width: 25%;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}

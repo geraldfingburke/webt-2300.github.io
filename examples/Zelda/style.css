@@ -1,0 +1,34 @@
+body{
+    text-align: center;
+    background-color: #505509;
+    background-image: url("https://i.redd.it/sr3zlxvmzx631.jpg");
+    background-repeat: repeat;
+    background-blend-mode: darken;
+}
+#nav{
+    font-family: 'Triforce';
+    font-size: 50px;
+    color: #b0b840;
+}
+table {
+    max-width: 70%;
+    margin: auto;
+    background-color: #011a1b;
+    border: solid #00fbff 4px;
+    box-shadow:
+    0 0 60px 30px #fff,
+    0 0 100px 60px rgb(34, 222, 255), 
+    0 0 140px 90px #0ff;
+    color: #b9f7ff;
+}
+td {
+    border: solid #00fbff 4px;
+}
+tr {
+    border: solid #00fbff 4px;
+}
+
+@font-face {
+    font-family: 'Triforce';
+    src: url('Triforce.ttf') format('truetype');
+}

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Module 04 - Lab</title>
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+    <h1>Advice Generator</h1>
+    <h2>Scope of Work</h2>
+    <p>Create a simple web application that will generate advice for the user. The advice will be pulled from a public API.</p>
+    <h2>Deliverables</h2>
+    <p>An HTML file with the scaffolding you will need is included. Make a note of the script tag in the header that brings in our AJAX library.</p>
+    <p>This has been included for this lab, but may not be in future labs. Return the completed HTML file saved as yourlastname_yourfirstname_module04lab.html</p>
+    <h2>Requirements</h2>
+    <p>Currently our page has a button, an empty p tag, and a non-dynamic tag with our counter. Your task is to make the request using AJAX and dynamically update this information.</p> 
+    <a href="https://api.adviceslip.com">https://api.adviceslip.com/</a>
+    <p>This is the API we’ll be using. You only need to use the ‘Random advice’ endpoint. Update the empty p tag with the value returned in the slip object.</p>
+    <p>You will also need to update the count of advice received. There is an id tagged span where you will do so.</p>
+    <h2>Advice</h2>
+    <p>You can use the jQuery $.ajax(); function to make the request. Documentation for the function is <a href="https://api.jquery.com/jQuery.ajax/">here</a>.</p>
+    <p>The important bits here will be the url and method. You can also pass a function to the success parameter that will wait until the request returns successfully to execute.</p> 
+    <p>Because this is asynchronous JavaScript, you cannot rely on the request to completely finish before the line of code below it is executed.</p>
+    <p>Remember this and it will hurt less.</p>
+    <p>Your best bet is to declare your counter outside of your request function scope, otherwise it will reset every time the function is called.</p>
+    <h2>Resources</h2>
+    <a href="https://github.com/geraldfingburke/webt-2300/tree/main/Lab%2004%20-%20Advice%20Generator">Code</a>
+    <h2>Example</h2>
+    <a href="advice-generator" target="_blank">Burke's Advice Generator</a>
+</body>
+</html>

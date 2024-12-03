@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Who's That Pokemon?</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="js/main.js"></script>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<nav>
+    <div>Who's That Pokemon?</div>
+    <div id="score" style="font-family: 'pokemon'; font-size: 20px; -webkit-text-stroke: 0px;">Score: 0</div>
+</nav>
+
+<div class="container">
+    <div class="row" style="text-align: center;">
+        <p id="answer" class="pokemon-font"></p>
+    </div>
+    <div class="row">
+        <table id="leaderboard" class="pokemon-font" style="display: none;">
+        </table>
+        <img id="pokemon-image" alt="Pokemon Image" style="max-width: 100%; height: auto;">
+    </div>
+    <div class="row">
+        <input type="text" class="pokemon-font" id="name" placeholder="Enter name...">
+        <button id="guess-button" class="pokemon-font">Guess</button>
+    </div>
+    <div class="row">
+        <select id="game-mode" class="pokemon-font">
+            <option value="original" class="pokemon-font">Original 151</option>
+            <option value="all" class="pokemon-font">All Pokemon</option>
+        </select>
+    </div>
+    <div class="row">
+        <p class="pokemon-font">Warning! Selecting a new set will reset your game!</p>
+    </div>
+</div>
+
+<footer class="pokemon-font">
+    Gerald Burke (C) 2024
+</footer>
+
+</body>
+</html>

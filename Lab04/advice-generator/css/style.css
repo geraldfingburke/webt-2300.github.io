@@ -1,0 +1,50 @@
+body {
+    text-align: center;
+    background-image: url("https://images.unsplash.com/photo-1505635552518-3448ff116af3?q=80&w=1965&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+    background-size: 50%;
+}
+
+.container {
+    padding: 25px;
+    width: 33%;
+    margin-top: 50px;
+    margin: auto;
+    color: white;
+    font-family: "autumn";
+    font-size: 30px;
+}
+
+#advice-button {
+    border: solid rgb(48, 48, 48) 2px;
+    background-color: rgb(24, 24, 24);
+    color: white;
+    font-family: "autumn";
+    font-size: 30px;
+}
+
+#photobox {
+    margin: auto;
+    max-width: 30%;
+    max-height: 150px;
+    padding: 300px;
+    background-image: url("https://images.unsplash.com/photo-1729682459691-e18931cf9893?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+    background-position: 0%;
+    border: solid rgb(24, 24, 24) 10px;
+}
+
+#textbox {
+    margin: auto;
+    margin-top: 0;
+    max-width: 70%;
+    font-family: "autumn";
+    font-size: 50px;
+}
+
+#advice {
+    color: white;
+}
+
+@font-face {
+    font-family: "autumn";
+    src: url("autumn.ttf");
+}
